@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jap-portfolio/static/css/main.0b54e144.css",
+    "main.js": "/jap-portfolio/static/js/main.26bfa3db.js",
+    "static/media/image2.png": "/jap-portfolio/static/media/image2.0146fc226b97cff2ff52.png",
+    "static/media/image1.png": "/jap-portfolio/static/media/image1.9f9176105b702c69395d.png",
+    "static/media/CV-John Aaron-Pineda.pdf": "/jap-portfolio/static/media/CV-John Aaron-Pineda.9df85b11982025127491.pdf",
+    "static/media/Reactjs-2.png": "/jap-portfolio/static/media/Reactjs-2.2e0cf6b260310429c1df.png",
+    "static/media/html-1.png": "/jap-portfolio/static/media/html-1.ff9b0820de6e28dacaf8.png",
+    "static/media/html-3.png": "/jap-portfolio/static/media/html-3.f1a79f70ed50e2241162.png",
+    "static/media/Reactjs-1.png": "/jap-portfolio/static/media/Reactjs-1.f5bc1705f37cc9c2ea52.png",
+    "static/media/Figma-1.png": "/jap-portfolio/static/media/Figma-1.6fc1934e272b8818895b.png",
+    "static/media/Reactjs-3.png": "/jap-portfolio/static/media/Reactjs-3.791d0db184a8d90b3531.png",
+    "static/media/Figma-3.png": "/jap-portfolio/static/media/Figma-3.c8f2777006cf01673e52.png",
+    "static/media/Figma-2.png": "/jap-portfolio/static/media/Figma-2.eac8ff03e936bc6207b0.png",
+    "static/media/html-2.png": "/jap-portfolio/static/media/html-2.65e9326d01dcb0824833.png",
+    "index.html": "/jap-portfolio/index.html",
+    "main.0b54e144.css.map": "/jap-portfolio/static/css/main.0b54e144.css.map",
+    "main.26bfa3db.js.map": "/jap-portfolio/static/js/main.26bfa3db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b54e144.css",
+    "static/js/main.26bfa3db.js"
+  ]
+}
