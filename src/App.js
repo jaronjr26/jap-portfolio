@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 
-function App() {
+const App = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={toggle === false ? 'dark' : 'light'}>
+      <Home toggle={toggle} setToggle={setToggle} />
+      <About toggle={toggle} setToggle={setToggle} />
+      <Portfolio toggle={toggle} setToggle={setToggle} />
+      <Contact toggle={toggle} setToggle={setToggle} />
     </div>
   );
-}
+};
 
-export default App;
+export default App

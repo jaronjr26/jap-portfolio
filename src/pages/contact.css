@@ -1,0 +1,90 @@
+.portfolio__contact-content_quotes{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 80px 0px;
+    color: #12F0C8;
+    font-weight: 600;
+}
+
+.portfolio__contact-content_info{
+    display: flex;
+    gap: 50px;
+
+}
+.portfolio__contact-content_info-personal p:nth-child(1){
+    font-weight: 600;
+}
+
+.portfolio__contact-content_info-personal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 50%;
+    color: var(--text_color);
+}
+
+
+.portfolio__contact-content_info-personal_number,
+.portfolio__contact-content_info-personal_email,
+.portfolio__contact-content_info-personal_github,
+.portfolio__contact-content_info-personal_address{
+    display: flex;
+    gap: 5px;
+    color: var(--text_color);
+    align-content: center;
+}
+
+.portfolio__contact-content_info-personal_number p:nth-child(2),
+.portfolio__contact-content_info-personal_email p:nth-child(2),
+.portfolio__contact-content_info-personal_github p:nth-child(2),
+.portfolio__contact-content_info-personal_address p:nth-child(2){
+    font-weight: 600;
+}
+
+.portfolio__contact-content_portfolio-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text_color);
+}
+
+.portfolio__contact-content_portfolio-content p:nth-child(1){
+    font-weight: 600;
+
+}
+.portfolio__contact-content_portfolio-content a{
+    cursor: pointer;
+}
+
+.portfolio__contact-copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    color: var(--text_color);
+}
+
+@media screen and (max-width: 768px){
+    .home__body{
+        margin-bottom: 80px;
+    }
+    .portfolio__contact-content_quotes{
+        font-size: 30px;
+    }
+    .portfolio__contact-content_info{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .portfolio__contact-content_info-personal_number,
+    .portfolio__contact-content_info-personal_email,
+    .portfolio__contact-content_info-personal_github,
+    .portfolio__contact-content_info-personal_address,
+    .portfolio__contact-content_portfolio-content a{
+        font-size: 12px;
+    }
+    .portfolio__contact-copyright{
+        font-size: 12px;
+    }
+    
+}

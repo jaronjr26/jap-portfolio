@@ -1,0 +1,122 @@
+.personal__info{
+    margin-top: 80px;
+}
+
+.personal__portfolio{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: var(--text_color);
+}
+
+.personal__portfolio-categories{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.personal__portfolio-categories li{
+    list-style: none;
+}
+
+.personal__portfolio-project1,
+.personal__portfolio-project2,
+.personal__portfolio-project3{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.personal__portfolio-project1_info,
+.personal__portfolio-project2_info,
+.personal__portfolio-project3_info{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+.personal__portfolio-project1_info p:nth-child(3),
+.personal__portfolio-project2_info p:nth-child(3),
+.personal__portfolio-project3_info p:nth-child(3){
+    color: var(--text_color);
+}
+
+.personal__portfolio-project1_info a:nth-child(1),
+.personal__portfolio-project2_info a:nth-child(1),
+.personal__portfolio-project3_info a:nth-child(1){
+    color: #12F0C8;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
+.personal__portfolio-project1_info a:nth-child(2),
+.personal__portfolio-project2_info a:nth-child(2),
+.personal__portfolio-project3_info a:nth-child(2){
+    color: var(--text_color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.content{
+    color:  var(--text_color);
+    cursor: pointer;
+}
+
+.active-content{
+    cursor: pointer;
+    color: #12F0C8;
+    font-weight: 800;
+    border-bottom: #12F0C8 3px solid;
+}
+
+.content-hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .personal__portfolio{
+        font-size: 30px;
+
+    }
+    .personal__portfolio-categories li{
+        font-size: 12px;
+
+    }
+    .personal__portfolio-project1,
+    .personal__portfolio-project2,
+    .personal__portfolio-project3{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .personal__portfolio-project2_image{
+        order: 2;
+    }
+    .personal__portfolio-project2{
+        flex-direction: column;
+    }
+    .personal__portfolio-project1_info p:nth-child(3),
+    .personal__portfolio-project2_info p:nth-child(3),
+    .personal__portfolio-project3_info p:nth-child(3){
+        color: var(--text_color);
+        font-size: 12px;
+    }
+    
+    .personal__portfolio-project1_info a:nth-child(1),
+    .personal__portfolio-project2_info a:nth-child(1),
+    .personal__portfolio-project3_info a:nth-child(1){
+        color: #12F0C8;
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    
+}

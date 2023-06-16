@@ -1,0 +1,233 @@
+.portfolio__about{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.about__info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__info-aboutme{
+    color: var(--text_color);
+    font-size: 40px;
+}
+
+.about__info-intro{
+    color: var(--text_color);
+}
+
+.about__info-data{
+    display: flex;
+    gap: 50px;
+    color: var(--text_color);
+}
+.about__info-data_categories p{
+    font-weight: 600;
+}
+
+.about__skills p{
+    color: var(--text_color);
+    font-weight: 600;
+}
+.about__skills-html,
+.about__skills-css,
+.about__skills-javascript,
+.about__skills-figma,
+.about__skills-reactjs{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+
+}
+
+.about__skills-html li,
+.about__skills-css li,
+.about__skills-javascript li,
+.about__skills-figma li,
+.about__skills-reactjs li{
+    color: var(--text_color);
+
+}
+
+.about__skills-html_rate,
+.about__skills-css_rate,
+.about__skills-javascript_rate,
+.about__skills-figma_rate,
+.about__skills-reactjs_rate{
+    border: 2px solid var(--text_color);
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.about__skills-html_ratings{
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to left, #12F0C8, #2F10F0);
+    flex-basis: 80%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.about__skills-css_ratings{
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to left, #12F0C8, #2F10F0);
+    flex-basis: 80%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.about__skills-javascript_ratings{
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to left, #12F0C8, #2F10F0);
+    flex-basis: 60%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.about__skills-figma_ratings{
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to left, #12F0C8, #2F10F0);
+    flex-basis: 80%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.about__skills-reactjs_ratings{
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to left, #12F0C8, #2F10F0);
+    flex-basis: 40%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.about__skills-others p{
+    font-weight: 600;
+    color: var(--text_color);
+
+}
+
+.about__skills-others li{
+    color: var(--text_color);
+
+}
+
+@media screen and (max-width: 1025px){
+
+    .about__info-intro{
+        font-size: 16px;
+
+    }
+    .about__image-photo{
+        width: 300px;
+    }
+    .about__info-aboutme{
+        font-size: 30px;
+    }
+    .about__info-intro{
+        font-size: 16px;
+        text-align: left;
+    }
+    .about__skills-html li,
+    .about__skills-css li,
+    .about__skills-javascript li,
+    .about__skills-figma li,
+    .about__skills-reactjs li{
+        font-size: 16px;
+    }
+    
+    .about__info-data_categories,
+    .about__info-data_name,
+    .about__skills-others
+    .about__skills p{
+        font-size: 16px;
+    }
+  
+    
+}
+
+@media screen and (max-width: 768px){
+    .portfolio__about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 80px;
+    }
+
+    .about__info-intro{
+        font-size: 12px;
+        text-align: left;
+    }
+    .about__skills-html li,
+    .about__skills-css li,
+    .about__skills-javascript li,
+    .about__skills-figma li,
+    .about__skills-reactjs li{
+        font-size: 12px;
+    }
+    
+    .about__info-data_categories,
+    .about__info-data_name,
+    .about__skills-others li,
+    .about__skills-others p{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .about__info-aboutme{
+        text-align: center;
+    }
+    .about__info-intro{
+        font-size: 12px;
+        text-align: left;
+    }
+    .portfolio__about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    .about__skills-html li,
+    .about__skills-css li,
+    .about__skills-javascript li,
+    .about__skills-figma li,
+    .about__skills-reactjs li{
+        font-size: 12px;
+    }
+    
+    .about__info-data_categories,
+    .about__info-data_name,
+    .about__skills-others li,
+    .about__skills-others p{
+        font-size: 12px;
+    }
+
+    .about__skills-html_rate,
+    .about__skills-css_rate,
+    .about__skills-javascript_rate,
+    .about__skills-figma_rate,
+    .about__skills-reactjs_rate{
+        border: 2px solid var(--text_color);
+        width: 200px;
+        height: 20px;
+        border-radius: 10px;
+        display: flex;
+}
+
+
+}
